@@ -1,0 +1,29 @@
+{
+  "name": "posts_api",
+  "version": "1.0.0",
+  "description": "Use json-server to build a restful api ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "node main.js",
+    "generate": "node generate-data.js"
+  },
+  "author": "Paul Nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "casual": "^1.6.0",
+    "dotenv": "^8.0.0",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "query-string": "^6.11.1",
+    "querystring": "^0.2.0",
+    "uniqid": "^5.4.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
