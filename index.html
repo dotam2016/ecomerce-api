@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="data-category">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>name</th>
+                <th>searchTerm</th>
+                <th>createdAt</th>
+                <th>updatedAt</th>
+            </tr>
+        </thead>
+        <tbody><tr>
+            <td>29etg2c4mcl4fd7kq7</td>
+            <td>SamSung</td>
+            <td>samsung</td>
+            <td>1655283756462</td>
+            <td>1655283756462</td>
+        </tr><tr>
+            <td>29etg2c4mcl4fd7kq8</td>
+            <td>Apple</td>
+            <td>apple</td>
+            <td>1655283756462</td>
+            <td>1655283756462</td>
+        </tr><tr>
+            <td>29etg2c4mcl4fd7kq9</td>
+            <td>Xiaomi</td>
+            <td>xiaomi</td>
+            <td>1655283756462</td>
+            <td>1655283756462</td>
+        </tr><tr>
+            <td>29etg2c4mcl4fd7kqa</td>
+            <td>Oppo</td>
+            <td>oppo</td>
+            <td>1655283756462</td>
+            <td>1655283756462</td>
+        </tr><tr>
+            <td>29etg2c4mcl4fd7kqb</td>
+            <td>Cáp Sạc điện thoại</td>
+            <td>cap sac dien thoai</td>
+            <td>1655283756462</td>
+            <td>1655283756463</td>
+        </tr><tr>
+            <td>29etg2c4mcl4fd7kqc</td>
+            <td>Pin dự phòng</td>
+            <td>pin du phong</td>
+            <td>1655283756463</td>
+            <td>1655283756463</td>
+        </tr><tr>
+            <td>29etg2c4mcl4fd7kqd</td>
+            <td>Phụ kiện khác</td>
+            <td>op dien thoai, </td>
+            <td>1655283756463</td>
+            <td>1655283756463</td>
+        </tr></tbody>
+        
+    </table>
+    <script>
+        ;(function(){
+            const getData = () => {
+                const dataElement = document.querySelector('#data-category');
+                fetch('http://localhost:3000/categories').then(response => response.json()).then(data => {
+                    let html = data.map((category) => {
+                        return `<tr>
+                                <td>${category.id}</td>
+                                <td>${category.name}</td>
+                                <td>${category.searchTerm}</td>
+                                <td>${category.createdAt}</td>
+                                <td>${category.updatedAt}</td>
+                            </tr>`
+                    })
+                    dataElement.innerHTML = html.join('');
+                })
+            }
+            const getProducts = () => {
+                const dataElement = document.querySelector('#data-category');
+                fetch('http://localhost:3000/products').then(response => response.json()).then(data => {
+                    let html = data.map((product) => {
+                        return `<tr>
+                                <td>${product.id}</td>
+                                <td>${product.name}</td>
+                                <td>${product.shortDescription}</td>
+                                <td>${product.description}</td>
+                                <td>${product.originalPrice}</td>
+                                <td>${product.originalPrice}</td>
+                                <td>${product.salePrice}</td>
+                                <td>${product.isPromotion}</td>
+                                <td>${product.promotionPercent}</td>
+                                <td>${product.images}</td>
+                                <td>${product.isFreeShip}</td>
+                                <td>${product.createdAt}</td>
+                                <td>${product.updatedAt}</td>
+                                <td>${product.categoryId}</td>
+                            </tr>`
+                    })
+                    dataElement.innerHTML = html.join('');
+                })
+            }
+            // getData();
+        })();
+    </script>
+</body>
+</html>`

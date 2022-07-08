@@ -1,1 +1,11 @@
-GET  http://localhost:3000/api/categories
+POST http://localhost:3000/auth/login
+Content-Type: : application/json
+
+{
+    "username": "HV0035",
+    "password": "123456"
+}
+
+
+###
+GET http://localhost:3000/categories
