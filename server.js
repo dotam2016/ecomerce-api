@@ -2,6 +2,7 @@ const fs = require('fs');
 const bodyParser = require('body-parser');
 const jsonServer = require('json-server');
 const jwt = require('jsonwebtoken');
+const queryString = require('query-string');
 
 const server = jsonServer.create();
 const router = jsonServer.router('./database/data.json');
@@ -50,6 +51,24 @@ server.post('/auth/login', (req, res) => {
     res.status(200).json({ userId: username, accessToken: access_token });
 });
 
+router.render = (req, res) => {
+    const headers = res.getHeaders();
+    const totalCount = headers['x-total-count'];
+    if(req.originalMethod === 'GET' && totalCount){
+        const queryParams = queryString.parse(req._parsedOriginalUrl.query);
+        const result = {
+          data: res.locals.data,
+          pagination:{
+            _page: Number.parseInt(queryParams._page) || 1,
+            _limit: Number.parseInt(queryParams._limit) || 10,
+            _totalRows: Number.parseInt(totalCount)
+          }
+        }
+      return res.json(result)
+      }
+      res.json(res.locals.data)
+}
+
 server.use(/^(?!\/auth).*$/, (req, res, next) => {
     if (
         req.headers.authorization === undefined ||
@@ -79,6 +98,8 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
         res.status(status).json({ status, message });
     }
 });
+
+
 
 server.use(router);
 
