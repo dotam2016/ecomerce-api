@@ -12,9 +12,12 @@ server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
 server.use(jsonServer.defaults());
 
+
 const SECRET_KEY = '05132022';
 
 const expiresIn = '1h';
+
+// const tokenList = ''
 
 // Create a token from a payload
 function createToken(payload) {
@@ -48,8 +51,25 @@ server.post('/auth/login', (req, res) => {
         return;
     }
     const access_token = createToken({ username, password });
-    res.status(200).json({ userId: username, accessToken: access_token });
+    const refreshToken  = createToken({ username, password });
+    // tokenList[refreshToken] = refreshToken;
+    res.status(200).json({ userId: username, accessToken: access_token, refreshToken: refreshToken });
 });
+
+server.post('/auth/token', (req, res) => {
+    // const postData = req.body
+    const { username, password, refreshToken } = req.body;
+    if(refreshToken) {
+        const token = createToken({ username, password });
+        const response = {
+            accessToken: token
+        }
+        res.status(200).json(response);      
+    } else {
+        res.status(404).send('Invalid request')
+    }
+})
+
 
 router.render = (req, res) => {
     const headers = res.getHeaders();
