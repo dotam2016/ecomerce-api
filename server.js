@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const jsonServer = require('json-server');
 const jwt = require('jsonwebtoken');
 const queryString = require('query-string');
+const dotenv = require('dotenv');
 
 const server = jsonServer.create();
 const router = jsonServer.router('./database/data.json');
@@ -12,7 +13,7 @@ server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
 server.use(jsonServer.defaults());
 
-
+dotenv.config();
 const SECRET_KEY = '05132022';
 
 const expiresIn = '2h';
