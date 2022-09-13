@@ -15,7 +15,7 @@ server.use(jsonServer.defaults());
 
 const SECRET_KEY = '05132022';
 
-const expiresIn = '1h';
+const expiresIn = '2h';
 
 // const tokenList = ''
 
@@ -34,9 +34,9 @@ function verifyToken(token) {
 // Check if the user exists in database
 function isAuthenticated({ username, password }) {
     return (
-        userdb.users.findIndex(
+        userdb.users.find(
             (user) => user.username === username && user.password === password,
-        ) !== -1
+        )
     );
 }
 
@@ -44,7 +44,8 @@ function isAuthenticated({ username, password }) {
 // Login to one of the users from ./users.json
 server.post('/auth/login', (req, res) => {
     const { username, password } = req.body;
-    if (isAuthenticated({ username, password }) === false) {
+    const infoUser = isAuthenticated({ username, password });
+    if (infoUser.length === 0) {
         const status = 401;
         const message = 'Incorrect username or password';
         res.status(status).json({ status, message });
@@ -53,7 +54,7 @@ server.post('/auth/login', (req, res) => {
     const access_token = createToken({ username, password });
     const refreshToken  = createToken({ username, password });
     // tokenList[refreshToken] = refreshToken;
-    res.status(200).json({ userId: username, accessToken: access_token, refreshToken: refreshToken });
+    res.status(200).json({id: infoUser.id, userId: username, accessToken: access_token, refreshToken: refreshToken });
 });
 
 server.post('/auth/token', (req, res) => {
