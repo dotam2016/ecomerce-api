@@ -166,7 +166,7 @@ const main = async () => {
   };
 
   // Save posts array to db.json file
-  fs.writeFile('database/db.json', JSON.stringify(db), () => {
+  fs.writeFile('./database/data.json', JSON.stringify(db), () => {
     console.log(`Generate done`);
   });
 };
