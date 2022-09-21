@@ -1,4 +1,4 @@
-const casual = require('casual');
+// const casual = require('casual');
 const fs = require('fs');
 const axios = require('axios');
 const queryString = require('query-string');
@@ -65,6 +65,7 @@ const mapToProduct = (product) => {
     isFreeShip: product.is_free_ship,
     createdAt: Date.now(),
     updatedAt: Date.now(),
+    isShow: true
   };
 };
 
@@ -75,6 +76,7 @@ const categoryList = [
     searchTerm: 'samsung',
     createdAt: Date.now(),
     updatedAt: Date.now(),
+    isShow: true
   },
   {
     id: uniqid(),
@@ -82,6 +84,7 @@ const categoryList = [
     searchTerm: 'apple',
     createdAt: Date.now(),
     updatedAt: Date.now(),
+    isShow: true
   },
   {
     id: uniqid(),
@@ -89,6 +92,7 @@ const categoryList = [
     searchTerm: 'xiaomi',
     createdAt: Date.now(),
     updatedAt: Date.now(),
+    isShow: true
   },
   {
     id: uniqid(),
@@ -96,6 +100,7 @@ const categoryList = [
     searchTerm: 'oppo',
     createdAt: Date.now(),
     updatedAt: Date.now(),
+    isShow: true
   },
   {
     id: uniqid(),
@@ -103,6 +108,7 @@ const categoryList = [
     searchTerm: 'cap sac dien thoai',
     createdAt: Date.now(),
     updatedAt: Date.now(),
+    isShow: true
   },
   {
     id: uniqid(),
@@ -110,6 +116,7 @@ const categoryList = [
     searchTerm: 'pin du phong',
     createdAt: Date.now(),
     updatedAt: Date.now(),
+    isShow: true
   },
   {
     id: uniqid(),
@@ -117,6 +124,7 @@ const categoryList = [
     searchTerm: 'op dien thoai, ',
     createdAt: Date.now(),
     updatedAt: Date.now(),
+    isShow: true
   },
 ];
 const productList = [];
@@ -158,7 +166,7 @@ const main = async () => {
   };
 
   // Save posts array to db.json file
-  fs.writeFile('db.json', JSON.stringify(db), () => {
+  fs.writeFile('database/db.json', JSON.stringify(db), () => {
     console.log(`Generate done`);
   });
 };
