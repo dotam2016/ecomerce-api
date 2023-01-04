@@ -16,7 +16,7 @@ server.use(jsonServer.defaults());
 dotenv.config();
 const SECRET_KEY = '05132022';
 
-const expiresIn = '2h';
+const expiresIn = '1h';
 
 // const tokenList = ''
 
