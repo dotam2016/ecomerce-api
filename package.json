@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Use json-server to build a restful api ",
   "scripts": {
-    "dev": "json-server --watch ./database/data.json",
+    "dev": "json-server --watch ./database/data.json --port 5000",
     "auth": "nodemon server.js",
     "start": "concurrently \"npm run dev\" \"npm run auth\"",
     "generate": "node generate-data.js"

@@ -2,10 +2,10 @@
   "categories": [
     {
       "id": "29etg2c220l8b1s9sy",
-      "name": "SamSung",
+      "name": "Samsung",
       "searchTerm": "samsung",
       "createdAt": 1663729831329,
-      "updatedAt": 1663729831329,
+      "updatedAt": 1676966102460,
       "isShow": true
     },
     {
@@ -76,7 +76,7 @@
       ],
       "isFreeShip": false,
       "createdAt": 1663729832470,
-      "updatedAt": 1663729832470,
+      "updatedAt": 1672821511134,
       "isShow": true,
       "categoryId": "29etg2c220l8b1s9sy"
     },
@@ -507,7 +507,9 @@
       "salePrice": 12990000,
       "isPromotion": 1,
       "promotionPercent": 19,
-      "images": ["https://media3.scdn.vn/img4/2022/03_12/6fdNXoXdgUVFx45jlf4o.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/03_12/6fdNXoXdgUVFx45jlf4o.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729839827,
       "updatedAt": 1663729839827,
@@ -545,7 +547,9 @@
       "salePrice": 12490000,
       "isPromotion": 1,
       "promotionPercent": 17,
-      "images": ["https://media3.scdn.vn/img4/2022/03_13/v8d5410u8hvDSgPlpV82.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/03_13/v8d5410u8hvDSgPlpV82.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729840342,
       "updatedAt": 1663729840342,
@@ -561,7 +565,9 @@
       "salePrice": 20990000,
       "isPromotion": 1,
       "promotionPercent": 5,
-      "images": ["https://media3.scdn.vn/img4/2022/04_08/N72gjc2rTOTCg67jTIlJ.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/04_08/N72gjc2rTOTCg67jTIlJ.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729840808,
       "updatedAt": 1663729840808,
@@ -577,7 +583,9 @@
       "salePrice": 19990000,
       "isPromotion": 1,
       "promotionPercent": 5,
-      "images": ["https://media3.scdn.vn/img4/2022/04_08/tQwfyJceOY9894qvINLC.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/04_08/tQwfyJceOY9894qvINLC.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729842111,
       "updatedAt": 1663729842111,
@@ -593,7 +601,9 @@
       "salePrice": 12990000,
       "isPromotion": 1,
       "promotionPercent": 19,
-      "images": ["https://media3.scdn.vn/img4/2022/03_12/KrCTuDTkgxi6lJDZu5HE.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/03_12/KrCTuDTkgxi6lJDZu5HE.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729842432,
       "updatedAt": 1663729842432,
@@ -609,7 +619,9 @@
       "salePrice": 20990000,
       "isPromotion": 1,
       "promotionPercent": 5,
-      "images": ["https://media3.scdn.vn/img4/2022/09_13/MeAeSeEzBmyfz9Bmfq9N.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_13/MeAeSeEzBmyfz9Bmfq9N.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729842703,
       "updatedAt": 1663729842703,
@@ -684,7 +696,9 @@
       "salePrice": 780000,
       "isPromotion": 1,
       "promotionPercent": 2,
-      "images": ["https://media3.scdn.vn/img4/2022/07_07/IH4x1Ai7Jju4EjxDsYA8.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/07_07/IH4x1Ai7Jju4EjxDsYA8.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729846695,
       "updatedAt": 1663729846695,
@@ -700,7 +714,9 @@
       "salePrice": 14990000,
       "isPromotion": 1,
       "promotionPercent": 7,
-      "images": ["https://media3.scdn.vn/img4/2022/09_08/1jRPQvoYOAIW6ek7snn6.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_08/1jRPQvoYOAIW6ek7snn6.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729846940,
       "updatedAt": 1663729846940,
@@ -716,7 +732,9 @@
       "salePrice": 12490000,
       "isPromotion": 1,
       "promotionPercent": 17,
-      "images": ["https://media3.scdn.vn/img4/2022/03_12/uUEPFMxlnqI7j2XGtBsg.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/03_12/uUEPFMxlnqI7j2XGtBsg.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729847426,
       "updatedAt": 1663729847426,
@@ -751,7 +769,9 @@
       "salePrice": 12490000,
       "isPromotion": 1,
       "promotionPercent": 17,
-      "images": ["https://media3.scdn.vn/img4/2022/09_10/XQJjy539IxYqAyMFD1eF.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_10/XQJjy539IxYqAyMFD1eF.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729847930,
       "updatedAt": 1663729847930,
@@ -767,7 +787,9 @@
       "salePrice": 14990000,
       "isPromotion": 1,
       "promotionPercent": 7,
-      "images": ["https://media3.scdn.vn/img4/2022/09_08/ha6XMDAgEMe5yzDfDB6n.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_08/ha6XMDAgEMe5yzDfDB6n.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729848159,
       "updatedAt": 1663729848159,
@@ -783,7 +805,9 @@
       "salePrice": 12490000,
       "isPromotion": 1,
       "promotionPercent": 17,
-      "images": ["https://media3.scdn.vn/img4/2022/03_12/OcoMoOQMzbzF60tEkFs6.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/03_12/OcoMoOQMzbzF60tEkFs6.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729848422,
       "updatedAt": 1663729848422,
@@ -799,7 +823,9 @@
       "salePrice": 2780000,
       "isPromotion": 1,
       "promotionPercent": 1,
-      "images": ["https://media3.scdn.vn/img4/2022/07_07/FRr5myjHLsCRVC3WkUkB.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/07_07/FRr5myjHLsCRVC3WkUkB.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729848646,
       "updatedAt": 1663729848646,
@@ -1379,7 +1405,9 @@
       "salePrice": 4190000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2022/09_12/YJc6Xf55bsKdPT5X07Bg.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_12/YJc6Xf55bsKdPT5X07Bg.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729859133,
       "updatedAt": 1663729859133,
@@ -1395,7 +1423,9 @@
       "salePrice": 6990000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2022/09_12/cZXbPw6nqIjsnmy5U1BI.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_12/cZXbPw6nqIjsnmy5U1BI.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729859344,
       "updatedAt": 1663729859344,
@@ -1411,7 +1441,9 @@
       "salePrice": 2890000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2022/09_12/mpG4vKDQxDMQsc5NA2gZ.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_12/mpG4vKDQxDMQsc5NA2gZ.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729859584,
       "updatedAt": 1663729859584,
@@ -1427,7 +1459,9 @@
       "salePrice": 6990000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2022/09_12/93ROEHZrITICdwzUGRET.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_12/93ROEHZrITICdwzUGRET.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729859808,
       "updatedAt": 1663729859808,
@@ -1463,7 +1497,9 @@
       "salePrice": 2890000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2022/09_12/MfvvWIazKzQLScs0wdS7.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_12/MfvvWIazKzQLScs0wdS7.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729860288,
       "updatedAt": 1663729860288,
@@ -1499,7 +1535,9 @@
       "salePrice": 2890000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2022/09_12/KGBZShXCWzIFM8yEaC6I.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_12/KGBZShXCWzIFM8yEaC6I.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729861022,
       "updatedAt": 1663729861022,
@@ -1595,7 +1633,9 @@
       "salePrice": 4170000,
       "isPromotion": 1,
       "promotionPercent": 1,
-      "images": ["https://media3.scdn.vn/img4/2022/08_22/tje2BBaCfVWKOAmBsNzK.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/08_22/tje2BBaCfVWKOAmBsNzK.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729862265,
       "updatedAt": 1663729862265,
@@ -1611,7 +1651,9 @@
       "salePrice": 2890000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2022/09_12/P9esJkiKINzOiyZ68auH.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2022/09_12/P9esJkiKINzOiyZ68auH.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729862649,
       "updatedAt": 1663729862649,
@@ -1670,7 +1712,9 @@
       "salePrice": 59000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img2/2017/8_21/7RKM3l_simg_aae4b9_500-500-39-0_cropf.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img2/2017/8_21/7RKM3l_simg_aae4b9_500-500-39-0_cropf.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729864987,
       "updatedAt": 1663729864987,
@@ -1686,7 +1730,9 @@
       "salePrice": 59000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img2/2017/8_21/zs6VNe.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img2/2017/8_21/zs6VNe.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729865212,
       "updatedAt": 1663729865212,
@@ -1702,7 +1748,9 @@
       "salePrice": 59000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img2/2017/8_21/rF4vQW.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img2/2017/8_21/rF4vQW.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729865422,
       "updatedAt": 1663729865422,
@@ -2057,7 +2105,9 @@
       "salePrice": 22000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2020/10_18/OQrU5wGAeIRnADLPRL5Q.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2020/10_18/OQrU5wGAeIRnADLPRL5Q.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729872018,
       "updatedAt": 1663729872018,
@@ -2381,7 +2431,9 @@
       "salePrice": 550000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img2/2018/8_10/gFVLRw.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img2/2018/8_10/gFVLRw.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729879072,
       "updatedAt": 1663729879072,
@@ -2835,7 +2887,9 @@
       "salePrice": 59000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img2/2017/8_21/EdTAgQ.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img2/2017/8_21/EdTAgQ.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1663729888645,
       "updatedAt": 1663729888645,
